@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background:#1122 ;
+  border: 10px solid white ;
+}
+
+.container{
+  background: #9786;
+  width: 1000px;
+  height: 2000px;
+  margin: auto;
+}
+
+.header{
+  height: 80px;
+  margin-top: 30px;
+
+
+}
+.header h2{
+  color: red;
+  float: left;
+  margin-top: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.header p{
+  color: green;
+  line-height: 80px;
+  padding-left: 100px;
+}
+.menutop{
+  height: 50px;
+  background-color: #3522e4;
+}
+.menutop a{
+  margin-top: 20px;
+  float: left;
+  text-decoration: none;
+  padding-right: 20px;
+  color: white;
+  display: block;
+
+}
+.menutop ul{
+    list-style: none;
+    padding-left: 20px;
+}
+
+.cell{
+    padding-left: 10px;
+    border-left: 1px solid white;
+}
+
+.viewabout {
+  color: white;
+  height: 150px;
+  margin-top: 20px;
+  background-color: #135;
+}
+.viewabout img{
+
+  float: left;
+  padding-right: 30px;
+}
+.viewabout h1{
+  font-size: 50px;
+  padding-top: 20px;
+}
+.content{
+  margin-top: 20px;
+  float : left;
+}
+.left {
+  height: 500px;
+  background-color: #41c04d;
+  float: left; 
+}
+.left a{
+  color: white;
+  text-decoration: none;
+  display: block;
+
+}
+.left ul li {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.left ul{
+  list-style-type: none;
+  margin-top: 30px;
+  margin-left: 20px ;
+  margin-right: 10px;
+}
+.right{
+  margin: 30px;
+  padding-left: 80px;
+  padding-right: 30px;
+  background-color: #4535;
+}
+.right h3 {
+  color: red;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.right p {
+    margin-left: 50px;
+    padding-top: 10px;
+}
